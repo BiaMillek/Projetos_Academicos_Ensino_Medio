@@ -1,1 +1,1 @@
-Projeto de um gerador de senha ultilizado estrutura de repetição em javascript.
+Projeto de um gerador de senha ultilizando estrutura de repetição em javascript.
