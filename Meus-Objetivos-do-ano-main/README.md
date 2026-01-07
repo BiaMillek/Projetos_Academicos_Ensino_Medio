@@ -1,1 +1,3 @@
-https://bianca2405.github.io/Meus-Objetivos-do-ano/
+Um contatador de tempo baseado em objetivos escolhidos pelo usuário.
+
+https://BiaMillek.github.io/Meus-Objetivos-do-ano/
