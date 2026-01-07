@@ -1,0 +1,314 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    
+font-family: 'Poppins', sans-serif;
+
+}
+
+.cabecalho
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: #AAD268;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    
+
+}
+
+.cabecalho-imagem
+{   width: 10%;
+   
+}
+.cabecalho-lista-item
+{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 15px ;
+    padding: 0 5px;
+    
+}
+
+
+.Imagem-sobre
+{
+    width:15%;
+
+}
+.sobre
+{
+    background-image: linear-gradient(#AAD268,#DCEBC3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.sobre-div-conteudo
+{
+    width: 35%;
+
+}
+.titulo-sobre
+{
+    padding: 24px 0;
+
+}
+.livro-imagem
+{
+    
+    width: 120px;
+    
+}
+.livro-div
+{
+    
+    text-align: center;
+    
+
+  
+    
+}
+
+.livro-nome {
+
+    
+    color: black;
+}
+
+.melhores-avaliados-titulo
+{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #DCEBC3;
+
+}
+.livro-todos
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    background-color: #DCEBC3;
+    text-decoration: none;
+   
+
+}
+.rodape
+{
+    background-color: #AAD268;
+    text-align: center;
+}
+.rodape-imagem
+{
+    height: 60px;
+    padding: 5px 0;
+
+}
+.erro-imagem
+{
+    width:20%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+    
+    
+}
+.embreve-titulo
+{
+    
+
+ text-align: center;
+
+}
+
+.titulo-pesquisa{
+
+    padding-top: 100px;
+    background-color:  #DCEBC3;
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.pesquisa-div{
+    
+    text-align: center;
+    
+}
+ .pesquisa-selection{
+    background-color:  #DCEBC3;
+    padding: 60px 0;
+
+ }
+
+ .pesquisa-info{
+
+    text-align: center;
+    padding-top: 8px;
+    font-size: 100%;
+    
+ }
+
+ .pesquisa{
+
+    width: 15%;
+    padding-left: 780px;
+ }
+    
+.genero-titulo{
+
+    text-align: center;
+    padding: 0 100px;
+    background-color: #DCEBC3 ;
+
+}
+.lista-genero-item{
+
+    text-align: center;
+    padding: 5px 0;
+    background-color: #DCEBC3 ;
+}
+html{
+
+    scroll-behavior: smooth;
+}
+#lista-id a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar a:hover{
+
+    background: #DCEBC3;
+    
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #0bce01;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+  }
+
+  
+
+  .mobile-menu-icon{
+     
+    display: none;
+  }
+
+  .mobile-menu{
+
+    display: none;
+  }
+
+@media screen and (max-width: 780px)
+{
+   .titulo-sobre,.sobre
+   {
+    font-size: 10px;
+
+   }
+   .cabecalho-lista-item{
+
+    font-size: 10px;
+    margin: 0px 10px;
+   }
+
+   .cabecalho-imagem
+   {
+     width: 20%;
+   }
+   .melhores-avaliados-titulo{
+
+    font-size: 15px;
+   }
+  .livro-todos{
+
+    grid-template-columns: 15% 25% 25% 25% 35% ;
+  }
+   .livro-imagem{
+    width: 70px
+    
+   }
+   
+   .livro-div{
+    
+    text-align: center;
+    font-size: 50%;
+    
+   }
+   .rodape-imagem,.rodape
+   {
+    height: 50px;
+    padding: 5px 0;
+   }
+
+   .sobre{
+    padding: 50px 0;
+   }
+
+   .Imagem-sobre{
+
+    padding: 0 30px;
+   }
+
+   .sobre-div-conteudo{
+    padding: 0 1px;
+   }
+
+   .Imagem-sobre{
+
+    width: 110px;
+   }
+   
+   .cabecalho-lista-item
+{
+   
+    margin: 0 5px;
+    font-size: 10px ;
+    padding: 0 0;
+    
+}
+  
+.navbar a{
+
+    padding: 10px 1px;
+}
+   
+.pesquisa{
+
+    width: 40%;
+    padding-left: 135px;
+}
+
+.pesquisa-div{
+
+    font-size: 12px;
+}
+
+.genero-titulo{
+
+    font-size: 15px;
+    padding: 0 1px;
+}
+.lista-genero-item{
+
+    font-size: 15px;
+    padding: 2px 1px;
+}
+
+   }
+
+   
